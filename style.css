@@ -1,7 +1,7 @@
 *
 body{
     background: rgba(0, 0, 0, 0.00);
-    width: 1400px;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -15,17 +15,16 @@ ul{
     padding: 0;
     list-style: none;
 }
-.header{
-    margin: 0;
-    padding: 0;
-}
 .conteiner{
+    width: 942px;
     margin: 0 auto;
 }
 .nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    height: 39px;
+    margin-top:35px;
    }
 .logo{
     display: flex;
@@ -33,15 +32,10 @@ ul{
     height: 53px;
     flex-direction: column;
     justify-content: center;
-    padding-top: 35px;
-    padding-left: 237px;
-    margin-right: 285px;
 
 }
 .menu{
     display:flex;
-    padding-top: 41.5px;
-    padding-right: 215px;
 }
 .menu_link{
     font-family: 'IBM Plex Mono', monospace;
@@ -58,15 +52,16 @@ ul{
     font-weight: 400;
     line-height: 41px; /* 292.857% */
     text-transform: uppercase;
-    padding: 10px;
+    margin-left: 10px;
+}
+.services_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    margin-bottom: 87px;
 }
 .text_services{
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Tilt Prism', cursive;
-    display: block;
-    margin: auto;
+    display: flex;
     width: 223px;
     color: #222;
     text-align: center;
@@ -77,48 +72,47 @@ ul{
     line-height: 75px; /* 187.5% */
     letter-spacing: -1px;
     text-transform: uppercase;
-    padding-top: 79px;
    
 }
 .services{
     display: flex;
-    justify-content: center;
-    margin-top: 87.5px;
+    justify-content: space-between;
+    margin-bottom: 132px;
     
-
 }
 .services_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
     width: 274px;
     height: 185px;
     flex-shrink: 0;
-    margin-left: 28px;
-    margin-right: 28px;
 }
 .servises_logo{
-    margin-top: 11px;
-    margin-left: 102px;
-    margin-right: 102px;
+  display: flex;
+  margin: 0;
 }
 .start{
+    display: flex;
+    justify-content: center;
     width: 174px;
+    height: 63px;
     color: #222;
     text-align: center;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 75px; /* 416.667% */
+    line-height: 75px; 
     letter-spacing: -0.45px; 
-    margin-top: -14px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 
 }
 .text_box{
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
     width: 304px;
     color: #777;
     text-align: center;
@@ -128,21 +122,23 @@ ul{
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.35px;
-    margin-top: -28px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1px;
+    margin: 0;
 }
-.footer{
-    margin-top: 132px;
-    margin-bottom: 0px;
-    padding: 0;
-    width: 1480px;
+.background_form{
+    margin: 0 auto;
     height: 679px;
-    flex-shrink: 0;
-    background-color: #222;
+    background: #222;
+}
+.footer_box{
+    padding-top: 1px;
+}
+.text_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
 }
 .footer_text{
+    display: flex;
     width: 288px;
     color: #FFF;
     font-family: Montserrat;
@@ -152,22 +148,21 @@ ul{
     line-height: normal;
     letter-spacing: -1px;
     text-transform: uppercase;
-    padding-top: 92px;
-    margin-left:auto ;
-    margin-right: auto ;
 }
 .form{
     display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+    margin-bottom: 1px;
+}
+.smool_form{
+    display: flex;
     flex-wrap: wrap;
-    margin-top:116px;
-    margin-right: 21px;
 }
 input[type=email], select {
     width: 455px;
     height: 50px;
     stroke: #BBB;
-    padding-left: 22px;
-    margin-left:233px;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
@@ -177,44 +172,31 @@ input[type=email], select {
     text-transform: uppercase;
 }
 .input_box{
-    margin:14px;
+    margin-bottom:28px;
 }
 input[type=text], select{
-    width: 458px;
+    width: 455px;
+    height: 214px;
     stroke: #BBB;
     font-family: Montserrat;
     text-align: start;
-    padding-left: 22px;
-    padding-top:14px ;
-    padding-bottom: 181px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.35px;
     text-transform: uppercase;
-    margin-top:20px;
 }
 .form_big_box{
     display: flex;
-    justify-content: end ;
-    padding-top:134px;
-    padding-bottom: 212px;
-    margin-top:-304px;
-    margin-right:230px;
 }
 .button_box{
     display: flex;
     justify-content: center;
-    padding-top: 27px;
-    padding-bottom:115px ;
-    margin-top: -210px;
 }
 
 .button{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 242px;
     height: 68px;
     flex-shrink: 0;

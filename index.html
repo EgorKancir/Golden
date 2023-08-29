@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Montserrat:wght@700&family=Roboto+Slab&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link href="style.css" rel="stylesheet">
     <title>16.08.2023</title>
 </head>
@@ -24,7 +25,7 @@
                 <img src="./img/Logo-Treehouse.png" alt="Logo-Treehouse">
                 </a>
             </div>
-                <nav class="nav">
+                <nav class="nav_menu">
                     <ul class="menu">
                         <li class="menu_link">
                             <a href="#">Home</a>
@@ -48,9 +49,10 @@
 </header>
 <main class="main">
     <div class="conteiner">
-        <h1 class="text_services">Services</h1>
+        <div class="services_text">
+            <h1 class="text_services">Services</h1>
+        </div>
         <div class="services">
-            <a href="#">
             <div class="services_box">
                 <img class="servises_logo" src="./img/Bag.png" alt="basket">
                 <h2 class="start">E-Commerce</h2>
@@ -58,8 +60,6 @@
                     digni ssim. Donec porttitora entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-            </a>
-            <a href="#">
             <div class="services_box">
                 <img class="servises_logo" src="./img/laptop.png" alt="laptop">
                 <h2 class="start">Responsive Web </h2>
@@ -67,8 +67,6 @@
                     digni ssim. Donec  entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-            </a>
-            <a href="#">
             <div class="services_box">
                 <img class="servises_logo" src="./img/Closes.png" alt="Castle">
                 <h2 class="start">Web Security</h2>
@@ -76,15 +74,19 @@
                     digni ssim. Donec porttitora entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-            </a>
         </div>
     </div>
 </main>
 <footer class="footer">
-  <div class="conteiner">
-    <h1 class="footer_text">Contact us</h1>
-        <form>
-            <div class="form">
+<div class="background_form">
+    <div class="conteiner">
+    <div class="footer_box">
+        <div class="text_footer">
+            <h1 class="footer_text">Contact us</h1>
+        </div>
+    <form>
+        <div class="form">
+          <div class="smool_form">
                  <div class="input_box">
                     <input type="email" placeholder="your Name *">
                 </div>
@@ -94,19 +96,22 @@
                 <div class="input_box">
                     <input type="email" placeholder="subject">
                 </div>
-                <div class="form_big_box">
+            </div>    
+            <div class="form_big_box">
                 <div class="input_big_box">
-                   <input type="text" placeholder="Your message *">
+                    <input type="text" placeholder="Your message *">
                 </div>
             </div>
         </div>
+            <div class="button_box">
+                <button class="button">
+                    <var>Send Message</var>
+                </button>
+            </div>
     </form>
-</div>
-        <div class="button_box">
-           <button class="button">
-            <var>Send Message</var>
-           </button>
     </div>
+    </div>
+</div>
     </footer>
     
 
